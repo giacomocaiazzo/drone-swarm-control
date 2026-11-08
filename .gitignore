@@ -1,0 +1,15 @@
+# Original files and intermediate versions
+/archive/
+
+# MATLAB and Simulink generated files
+slprj/
+codegen/
+*.slxc
+*.asv
+*.m~
+matlab.mat
+
+# Local operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
