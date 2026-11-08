@@ -2,8 +2,10 @@
 
 1. Open the project folder as MATLAB's Current Folder.
 2. Run `network/graph_matrices.m` to define the network matrices and gains.
-3. Open one of the models below and press **Run**.
+3. Open `simulation/Drone_swarm_control.slx` and press **Run**.
 4. Inspect the model scopes for the simulation results.
+
+## Other simulations
 
 | Simulation | Model |
 | --- | --- |

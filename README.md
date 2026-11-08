@@ -1,11 +1,12 @@
 # Drone Swarm Control
 
-A MATLAB and Simulink project on cooperative quadrotor control. It includes formation tracking, repulsive interactions and control over a communication network.
+A MATLAB and Simulink project on cooperative quadrotor control. It includes formation tracking, repulsive interactions, network communication and battery dynamics.
 
 ## Project files
 
 | File | Description |
 | --- | --- |
+| [Drone_swarm_control.slx](simulation/Drone_swarm_control.slx) | Main simulation with network and battery dynamics. |
 | [graph_matrices.m](network/graph_matrices.m) | Network matrices and coupling gains. |
 | [Formation_control.slx](formation-control/Formation_control.slx) | Formation-control simulation. |
 | [Collision_avoidance.slx](collision-avoidance/Collision_avoidance.slx) | Formation control with repulsive interactions. |
@@ -14,8 +15,8 @@ A MATLAB and Simulink project on cooperative quadrotor control. It includes form
 
 ## How to use
 
-Open the project folder in MATLAB, run `network/graph_matrices.m`, then open the desired Simulink model and press **Run**.
+Open the project folder in MATLAB, run `network/graph_matrices.m`, then open [Drone_swarm_control.slx](simulation/Drone_swarm_control.slx) and press **Run**.
 
-See the [usage guide](docs/USAGE.md) for the available simulations.
+See the [usage guide](docs/USAGE.md) for the other simulations.
 
 Author: Giacomo Caiazzo.
